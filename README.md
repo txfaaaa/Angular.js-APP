@@ -1,5 +1,7 @@
 # Angular.js-APP
-一个AngularJs编写的WebApp项目, 使用了自动化构建工具Gulp. 内容为招聘网站.
+一个AngularJs编写的WebApp项目, 使用了自动化构建工具Gulp. 内容为招聘网站. 有职位列表页,职位详情页,公司详情页,搜索页,用户页,投递记录页,收藏页,登录页,注册页
+
+<img src="screenshot.png">
 
 1. 先安装 package.json 中的node模块
 
