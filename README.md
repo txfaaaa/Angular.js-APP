@@ -3,7 +3,7 @@
 
 <img src="screenshot.png">
 
-1. 先安装 package.json 中的node模块
+1. 先安装 package.json 中的node模块 npm install
 
 2. 可能需要全局安装 gulp，即 npm i -g gulp
 
