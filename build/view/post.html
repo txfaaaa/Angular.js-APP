@@ -1,0 +1,4 @@
+<div app-head-bar text="投递记录"></div>
+<div app-tab tab-click="tClick(id,name);" list="tabList"></div>
+<div app-position-list class="my-post" data="positionList" filter-obj="filterObj" ></div>
+<!-- positionList.html里面已经定义了filterByObj函数,通过,filterObj传递参数即可,比如,在这里定义filterObj.state==1,则在list的锅炉起下,自动过滤state==1的列表数据 -->
