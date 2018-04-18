@@ -1,19 +1,33 @@
-# Angular.js-APP
-一个AngularJs编写的WebApp项目, 使用了自动化构建工具Gulp. 内容为招聘网站. 有职位列表页,职位详情页,公司详情页,搜索页,用户页,投递记录页,收藏页,登录页,注册页
+### 使用AngularJs实现一个招聘App
 
-<img src="screenshot.png">
+#### Web App 的模块划分   --招聘Web App 按照模块的顺序进行开发
 
-1. 先安装 package.json 中的node模块 npm install
+* 职位
+* 搜索
+* 用户 
 
-2. 可能需要全局安装 gulp，即 npm i -g gulp
+### 项目详情
+ * 模块划分: 职位, 搜索, 用户
+ * 页面详情: 职位列表页, 职位详情页, 公司详情页, 搜索页, 用户页, 投递记录页,收藏页,登录页,注册页
 
-3. 需要全局安装bower,即 npm i -g bower 
- 
-4. 然后安装 bower.json 中的依赖模块, 即 bower install 
+### 搭建开发环境
 
-5. 开发时需要启动 gulp 任务,监听代码并事实行编译
-   cmd 进入代码所在目录, gulp serve 启动任务
+* 开发工具 **AngluarJs**
+* 构建工具 **Gulp** , 可能需要全局安装
+```bash
+  npm i -g gulp gulp-clean gulp-concat gulp-connect gulp-cssmin gulp-imagemin gulp-less gulp-load-plugins gulp-plumber gulp-uglify open
+  ```
+* 包(第三方依赖)管理工具 **Bower**
+```bash
+  npm i -g bower 
+  bower install
+  ```
+* 开发时需要启动 gulp 任务,监听代码并实时编译
+ ```bash
+   gulp serve
+  ```
+* 浏览器输入http://localhost:3000/ 端口可在gulpfile.js中修改
 
-6. src目录中的 data 文件夹为假数据，直接放置到项目的 src 目录即可。
 
-5. 浏览器输入http://localhost:3000/ 端口可在gulpfile.js中修改
+
+
