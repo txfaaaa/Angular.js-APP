@@ -7,7 +7,7 @@ angular.module('app').controller('positionCtrl',['$log','$q','$http','$state','$
   var id=$state.params.id;
   function getPosition(){
     var def=$q.defer();
-    $http({method: 'GET',url: '/data/position.json?id='+$state.params.id})
+    $http({method: 'GET',url: 'data/position.json?id='+$state.params.id})
       .then(function successCallback(resp) {
         var data=resp.data;
         for(var i=0;i<data.length;i++){
@@ -31,7 +31,7 @@ angular.module('app').controller('positionCtrl',['$log','$q','$http','$state','$
   }
   function getCompany(id){
     var id=id;
-    $http({method: 'GET',url: '/data/company.json'})
+    $http({method: 'GET',url: 'data/company.json'})
       .then(function successCallback(resp) {
         var data=resp.data;
         for(var i=0;i<data.length;i++){
