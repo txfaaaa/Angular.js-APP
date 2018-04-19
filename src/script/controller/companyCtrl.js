@@ -1,7 +1,7 @@
 'use strict';
 angular.module('app').controller('companyCtrl',['$http','$scope','$state',function($http,$scope,$state){
   var id=$state.params.id;
-  $http({method: 'GET',url: '/data/company.json'})
+  $http({method: 'GET',url: 'data/company.json'})
     .then(function successCallback(resp) {
     //  $scope.company= resp.data;
       var data=resp.data;
