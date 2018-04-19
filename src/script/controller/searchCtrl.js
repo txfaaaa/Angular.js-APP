@@ -4,7 +4,7 @@ angular.module('app').controller('searchCtrl',['dict','$http','$scope',function(
   //定义search函数
   $scope.search= function(){
   	var name= $scope.name;//定义positionList.json/name=?的值为搜索框ng-model绑定的值
-  	$http({method: 'GET',url: '/data/positionList.json'}).then(function successCallback(resp) {
+  	$http({method: 'GET',url: 'data/positionList.json'}).then(function successCallback(resp) {
   			var data=resp.data;
   			var res=[];
     		for(var i=0;i<data.length;i++){
