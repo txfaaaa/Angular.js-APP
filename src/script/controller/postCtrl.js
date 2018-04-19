@@ -10,7 +10,7 @@ angular.module('app').controller('postCtrl',['$http','$scope',function($http,$sc
 		id:'fail',
 		name:'不合适'
 	}];
-  	$http({method: 'GET',url: '/data/myPost.json'})
+  	$http({method: 'GET',url: 'data/myPost.json'})
   	.then(function successCallback(resp) {
     	console.log(resp);
     	$scope.positionList= resp.data;
