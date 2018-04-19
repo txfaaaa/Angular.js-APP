@@ -13,6 +13,8 @@
 ### 在线预览
 [点我在线预览](https://txfaaaa.github.io/AngularJs_App)
 
+**（PC端建议开启chrome调试模式食用更佳，移动端直接在浏览器开启即可）**
+
 ### 搭建开发环境
 
 * 开发工具 **AngluarJs**
