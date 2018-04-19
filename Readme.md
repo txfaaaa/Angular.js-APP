@@ -1,4 +1,4 @@
-### 使用AngularJs实现一个招聘App
+### 使用 AngularJs + Gulp 实现一个招聘App
 
 #### Web App 的模块划分   --招聘Web App 按照模块的顺序进行开发
 
