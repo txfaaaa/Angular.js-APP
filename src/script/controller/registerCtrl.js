@@ -9,7 +9,7 @@ angular.module('app').controller('registerCtrl',['$interval','$http','$scope','$
   }
   var count = 60;
   $scope.send=function(){//定义发送短信码的操作
-  	$http({method: 'GET',url: '/data/code.json'})
+  	$http({method: 'GET',url: 'data/code.json'})
   		.then(function successCallback(resp) {
     		console.log(resp.data);
     		if(resp.data.state===1){
